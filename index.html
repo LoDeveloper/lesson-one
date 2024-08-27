@@ -4,109 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first webpage</title>
-    <link rel="Stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
     <header>
         <h1>My favorite recipes</h1>
-        <nav>
+        <nav class="nav">
             <ul>
-                <li><a href="#breakfast"></a>Breakfast</li>
-                <li><a href="lunch"></a>Lunch</li>
-                <li><a href="dinner">Dinner</a></li>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
             </ul>
         </nav>
     </header>
-  <section class="breakfast">
-        <h2>Breakfast</h2>
-            <h3>Banana Bread</h3>
-            <img src="./images/banana-bread.jpg" alt="Banana-bread">
-                <h4>Ingredients for Banana Bread</h4>
-                    <ul>
-                        <li>All-purpose flour</li>
-                        <li>Eggs</li>
-                        <li>Bananas</li>
-                        <li>Canola oil</li>
-                        <li>Buttermilk</li>
-                        <li>Walnuts</li>
-                    </ul> 
-                <h4>Directions</h4>
-                    <ol>
-                        <li>Whisk together the flour mixture. Preheat the oven to 350°F. In a large bowl, whisk together the flour, sugar, baking soda and salt.</li>
-                        <li>Create the batter. In another bowl, whisk together the eggs, bananas, oil, buttermilk and vanilla until well combined. Add the banana mixture to the flour mixture,
-                        stirring just until combined. If desired, fold in the walnuts</li>
-                        <li>Step 3: Bake the banana bread. Pour the batter into a greased or parchment-lined 9×5-inch loaf pan. Bake the banana bread until a toothpick inserted into the 
-                        center comes out clean, 1-1/4 to 1-1/2 hours.
-                        <li>Cool the bread in the pan at room temperature for 15 minutes. Remove the bread from the pan and place it on a wire ´rack to cool 
-                        completely to room temperature before slicing. </li>
-                    </ol>
-  </section>
-  <section class="lunch">
-        <h2>Lunch</h2>
-            <h3>Chicken Potpie</h3>
-            <img src="./images/Chicken-potpie.jpg" alt="Chicken-potpie">
-                <h4>Chicken Potpie Ingredients</h4>
-                    <ul>
-                        <li>Pie crust</li>
-                        <li>Chicken</li>
-                        <li>Vegetables</li>
-                        <li>Cream sauce</li>
-                    </ul>
-                <h4>Directions</h4>
-                        <ol>
-                        <li>Cook the potato and carrot mixture
-                        Preheat the oven to 425°F.
-                        Place the potatoes and carrots in a large saucepan, and add enough water to cover the vegetables. 
-                        Bring the water to a boil. Then, reduce the heat. Cook, covered, for 8 to 10 minutes or until the veggies are crisp-tender. 
-                        Drain and discard the water.</li>
-                        <li>Make a roux for the filling
-                        In a large skillet, heat the butter over medium-high heat. Add the onion. Cook and stir until the onion is tender.
-                        Stir in the flour and seasonings until blended.</li>
-                        <li>Finish the filling
-                        Gradually stir in the broth and milk. Bring the mixture to a boil, stirring constantly. Cook and stir for two minutes or until the mixture is thickened.
-                        In a large bowl, combine the chicken, peas, corn, and potato-carrot mixture. Stir in the broth mixture.</li>
-                        <li>Assemble the potpie
-                        Unroll a pie crust into each of the two 9-inch pie plates. Trim the crusts even with the rims of the plates. Add half the filling to each pie plate.</li>
-                        <li> Add the top crust
-                        Unroll the remaining pie crusts. Working with one pie crust at a time, place it over the filling in each pie plate.
-                        Trim, seal and flute the edges. Cut a few slits in the tops.</li>
-                        <li>Bake the potpie
-                        Bake for 35 to 40 minutes or until the crust is lightly browned. Let the potpie stand for 15 minutes before cutting.</li>
 
-                        </ol>
-  </section>
-  <section class="dinner">
+    <div class="breakfast" id="breakfast">
+        <h2>Breakfast</h2>
+        <h3>Banana Bread</h3>
+        <img src="./images/banana-bread.jpg" alt="Banana-bread">
+        <h4>Ingredients for Banana Bread</h4>
+        <ul>
+            <li>All-purpose flour</li>
+            <li>Eggs</li>
+            <li>Bananas</li>
+            <li>Canola oil</li>
+            <li>Buttermilk</li>
+            <li>Walnuts</li>
+        </ul> 
+        <h4>Directions</h4>
+        <ol>
+            <li>Whisk together the flour mixture. Preheat the oven to 350°F. In a large bowl, whisk together the flour, sugar, baking soda, and salt.</li>
+            <li>Create the batter. In another bowl, whisk together the eggs, bananas, oil, buttermilk, and vanilla until well combined. Add the banana mixture to the flour mixture, stirring just until combined. If desired, fold in the walnuts.</li>
+            <li>Bake the banana bread. Pour the batter into a greased or parchment-lined 9×5-inch loaf pan. Bake the banana bread until a toothpick inserted into the center comes out clean, 1-1/4 to 1-1/2 hours.</li>
+            <li>Cool the bread in the pan at room temperature for 15 minutes. Remove the bread from the pan and place it on a wire rack to cool completely to room temperature before slicing.</li>
+        </ol>
+    </div>
+
+    <div class="lunch" id="lunch">
+        <h2>Lunch</h2>
+        <h3>Chicken Potpie</h3>
+        <img src="./images/Chicken-potpie.jpg" alt="Chicken-potpie">
+        <h4>Chicken Potpie Ingredients</h4>
+        <ul>
+            <li>Pie crust</li>
+            <li>Chicken</li>
+            <li>Vegetables</li>
+            <li>Cream sauce</li>
+        </ul>
+        <h4>Directions</h4>
+        <ol>
+            <li>Cook the potato and carrot mixture. Preheat the oven to 425°F. Place the potatoes and carrots in a large saucepan, and add enough water to cover the vegetables. Bring the water to a boil. Then, reduce the heat. Cook, covered, for 8 to 10 minutes or until the veggies are crisp-tender. Drain and discard the water.</li>
+            <li>Make a roux for the filling. In a large skillet, heat the butter over medium-high heat. Add the onion. Cook and stir until the onion is tender. Stir in the flour and seasonings until blended.</li>
+            <li>Finish the filling. Gradually stir in the broth and milk. Bring the mixture to a boil, stirring constantly. Cook and stir for two minutes or until the mixture is thickened. In a large bowl, combine the chicken, peas, corn, and potato-carrot mixture. Stir in the broth mixture.</li>
+            <li>Assemble the potpie. Unroll a pie crust into each of the two 9-inch pie plates. Trim the crusts even with the rims of the plates. Add half the filling to each pie plate.</li>
+            <li>Add the top crust. Unroll the remaining pie crusts. Working with one pie crust at a time, place it over the filling in each pie plate. Trim, seal, and flute the edges. Cut a few slits in the tops.</li>
+            <li>Bake the potpie. Bake for 35 to 40 minutes or until the crust is lightly browned. Let the potpie stand for 15 minutes before cutting.</li>
+        </ol>
+    </div>
+
+    <div class="dinner" id="dinner">
         <h2>Dinner</h2> 
-            <h3>Lasagna</h3>
-            <img src="./images/lasagna.jpg" alt="lasagna">
-                <h4>Lasagna Ingredients</h4>
-                    <ul>
-                        <li>Lasagna noodles</li>
-                        <li>Sausage and ground beef</li>
-                        <li>Crushed tomatoes and tomato paste</li>
-                        <li>Sugar</li>
-                        <li>Cheese</li>
-                        <li>Egg</li>
-                    </ul>
-                <h4>Directions</h4>
-                    <ol>
-                        <li>Brown the beef
-                        Bring a large pot of salted water to a boil. Cook the noodles according to the package directions. When complete, drain the noodles, and set aside.</li>
-                        <li>Make the meat sauce
-                        Drain the mixture in the Dutch oven. Then, add the remaining sauce ingredients: crushed tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and coarsely ground pepper. 
-                        Bring the mixture to a boil. Reduce the heat to a simmer. Cook, uncovered, for 30 minutes, stirring occasionally</li>
-                        <li>Prepare the cheese filling.
-                        In a small bowl, whisk together the egg, ricotta cheese, and remaining 1/4 cup parsley and 1/4 teaspoon salt.<br>
-                        <li>Layer the lasagna ingredients </li>
-                        Preheat the oven to 375°. Spoon 2 cups meat sauce into an ungreased 13×9-inch baking dish, spreading it out to cover the entire dish. 
-                        Layer three noodles onto the sauce.</li>
-                        <li>Bake the lasagna.
-                        Cover the baking dish, and bake for 25 minutes. 
-                        Remove the cover, and cook for an additional 25 minutes, until the sauce is bubbling around the edges and the cheese is fully melted.</li>
-                    </ol>
-  </section>
-  <footer>
-     <h6>Location: Malmö, Sweden</h6>
-  </footer>
+        <h3>Lasagna</h3>
+        <img src="./images/lasagna.jpg" alt="lasagna">
+        <h4>Lasagna Ingredients</h4>
+        <ul>
+            <li>Lasagna noodles</li>
+            <li>Sausage and ground beef</li>
+            <li>Crushed tomatoes and tomato paste</li>
+            <li>Sugar</li>
+            <li>Cheese</li>
+            <li>Egg</li>
+        </ul>
+        <h4>Directions</h4>
+        <ol>
+            <li>Brown the beef. Bring a large pot of salted water to a boil. Cook the noodles according to the package directions. When complete, drain the noodles, and set aside.</li>
+            <li>Make the meat sauce. Drain the mixture in the Dutch oven. Then, add the remaining sauce ingredients: crushed tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt, and coarsely ground pepper. Bring the mixture to a boil. Reduce the heat to a simmer. Cook, uncovered, for 30 minutes, stirring occasionally.</li>
+            <li>Prepare the cheese filling. In a small bowl, whisk together the egg, ricotta cheese, and remaining 1/4 cup parsley and 1/4 teaspoon salt.</li>
+            <li>Layer the lasagna ingredients. Preheat the oven to 375°F. Spoon 2 cups meat sauce into an ungreased 13×9-inch baking dish, spreading it out to cover the entire dish. Layer three noodles onto the sauce.</li>
+            <li>Bake the lasagna. Cover the baking dish, and bake for 25 minutes. Remove the cover, and cook for an additional 25 minutes, until the sauce is bubbling around the edges and the cheese is fully melted.</li>
+        </ol>
+    </div>
+
+    <footer>
+        <h6>Location: Malmö, Sweden</h6>
+    </footer>
 </body>
 </html>
